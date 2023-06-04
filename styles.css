@@ -1,0 +1,66 @@
+body{
+    background-image: url(./color.jpg);
+    height: 50rem;
+    font-family: 'cormorant', sans-serif;
+    
+ }
+ 
+ .line{
+     border-bottom: .08rem solid pink;
+     padding: 1rem;
+ }
+ 
+ .calc-btn{
+    margin-top: 1rem;
+    
+ }
+ 
+ 
+ .front-card{
+     color: black;
+    background-image: url(./ice.jpg);
+     width: 30rem;
+     margin: auto;
+     border-radius: 1rem;
+     padding: .5rem;
+     margin-top: 7rem;
+     background-repeat: no-repeat;
+     background-size: cover;
+ 
+ 
+ }
+ 
+ button:hover{
+     color: white;
+     background-color: pink;
+     transition: .7s;
+     cursor:pointer ;
+ }
+ 
+ .btn-can{
+     display: flex;
+ }
+ 
+ .calc{
+     border-radius: .5rem;
+     width: 5rem;
+     height: 2.2rem;
+     background-color: whitesmoke;
+     border: none;
+ }
+ 
+ .clear{
+     border-radius: .5rem;
+     width: 5rem;
+     height: 2.2rem;
+     background-color: whitesmoke;
+     border: none;
+ }
+ 
+ @media only screen and(max-width: 400px){
+     body{
+         grid-template-columns: 1fr;
+         grid-template-rows: repeat(7, auto);
+     }
+ }
+ 
