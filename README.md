@@ -14,4 +14,4 @@ This is a simple JavaScript tip calculator that allows you to calculate the tota
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Freehiei/Tip-Calculator
+git clone https://github.com/DeidaTypes/Tip-Calculator
